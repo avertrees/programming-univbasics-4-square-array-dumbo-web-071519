@@ -5,5 +5,5 @@ def square_array(array)
   i = 0
   while i < array.length do
     squared[i] = array[i]**2
-    i++
+    i+=1
 end
