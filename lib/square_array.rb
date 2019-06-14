@@ -4,6 +4,6 @@ def square_array(array)
   squared = Array.new(array.length)
   i = 0
   while i < array.length do
-    squared[i] == array[i]**2
-    
+    squared[i] = array[i]**2
+    i++
 end
